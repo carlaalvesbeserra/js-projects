@@ -1,24 +1,28 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1em;
-    background-color: #bcbcbc;
+    background-color: hsl(0, 0%, 95%);
+}
+
+h1 {
+    color:hsl(0, 0%, 0%);
+    font-size: 2em;
 }
 
 #container {
-    background-color: whitesmoke;
-    margin: auto;
+    background-color: hsl(0, 0%, 100%);
     text-align: center;
-    width: 500px;
-    padding: 20px;
-    border: 2px solid hsla(0, 0%, 0%, 0.534);
+    max-width: 500px;
+    margin: auto;
+    padding: 25px;
     border-radius: 10px;
-    box-shadow: 1px 1px 5px hsla(0, 0%, 0%, 0.447);
+    box-shadow: 5px 5px 15px hsla(0, 0%, 0%, 0.31);
 }
 
 #countLabel {
     display: block;
     text-align: center;
-    font-size: 10em;
+    font-size: 8em;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
@@ -27,16 +31,17 @@ body {
 }
 
 .buttons {
-    font-weight: 600;
-    padding: 10px 20px;
-    font-size: 1.5em;
-    color: white;
+    margin-top: 25px;
     background-color: hsl(0, 0%, 0%);
+    font-size: 1.2em;
+    border: none;
+    padding: 10px 15px;
     border-radius: 5px;
+    color: white;
     cursor: pointer;
     transition: background-color 0.25s;
 }
 
 .buttons:hover {
-    background-color: hsla(0, 0%, 0%, 0.615);
+    background-color: hsla(0, 0%, 0%, 0.438);
 }
